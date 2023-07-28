@@ -1,4 +1,5 @@
 import streamlit as st
+import base64
 
 st.title("Projects")
 
@@ -7,17 +8,41 @@ st.write(
     ## LARGE LANGUAGE MODELS
     1. SEC Filings Question Answering Agent: Every publicly listed company has to file their quarterly (10-Q) and annual (10-K) reports. The health of the company is reflected in these documents and is essential for investors to process these informations. In this project, I built an end-to-end project
     to parse these documents and QA agent on top of it. Here is the link to my [project](https://github.com/Athe-kunal/SEC-QA-Agent).
+    """)
 
-    ![Alt Caption](https://github.com/Athe-kunal/SEC-QA-Agent/blob/main/Demo.gif)
+file_ = open("pages/Demo.gif", "rb")
+contents = file_.read()
+data_url = base64.b64encode(contents).decode("utf-8")
+file_.close()
 
+st.markdown(
+    f'<img src="data:image/gif;base64,{data_url}" width="1100" height="500" alt="demo gif">',
+    unsafe_allow_html=True,
+)
+
+st.write(
+    """
     2. Terms and Conditions QA: As part of a team of six for Lablab AI hackathon partnered with Google, we build a Terms and Conditions Question-Answering agent. Link to repo [here](https://github.com/Athe-kunal/TandC-QA).
 
-        * ![Image Description](https://github.com/Athe-kunal/TandC-QA/blob/7f8281ec2638bc83a91dd389919b18a37ea66b6e/TandCQA.jpeg)
 
         * [Project Page](https://lablab.ai/event/google-vertex-ai-hackathon/prompt-paladins/taco-terms-and-conditions-oracle)
 
         * Try the live app [here](https://taco-shawisltzq-wl.a.run.app/)
+    """)
 
+col1, col2, col3 = st.columns([3,6,1])
+
+with col1:
+    st.write("")
+
+with col2:
+    st.image("pages\TandCQA.jpeg")
+
+with col3:
+    st.write("")
+
+st.write(
+    """    
     ## REINFORCEMENT LEARNING
     
     1. Reinforcement learning for algorithmic trading using Google Trends data as state space 
