@@ -10,11 +10,15 @@ st.write(
     to parse these documents and QA agent on top of it. Here is the link to my [project](https://github.com/Athe-kunal/SEC-QA-Agent).
     """)
 
-file_ = open("pages/Demo.gif", "rb")
-contents = file_.read()
-data_url = base64.b64encode(contents).decode("utf-8")
-file_.close()
+@st.cache_data
+def get_demo(path):
+    file_ = open(path, "rb")
+    contents = file_.read()
+    data_url = base64.b64encode(contents).decode("utf-8")
+    file_.close()
+    return data_url
 
+data_url = get_demo("pages/Demo.gif")
 st.markdown(
     f'<img src="data:image/gif;base64,{data_url}" width="1100" height="500" alt="demo gif">',
     unsafe_allow_html=True,
