@@ -40,7 +40,7 @@ with col1:
     st.write("")
 
 with col2:
-    st.image("TandCQA.jpeg")
+    st.image("pages/TandCQA.jpeg")
 
 with col3:
     st.write("")
