@@ -26,7 +26,9 @@ st.markdown(
 
 st.write(
     """
-    2. Terms and Conditions QA: As part of a team of six for Lablab AI hackathon partnered with Google, we build a Terms and Conditions Question-Answering agent. Link to repo [here](https://github.com/Athe-kunal/TandC-QA).
+    2. Llama Hub Open-Source contribution on SEC Filings loader: [loader link](https://llamahub.ai/l/sec_filings)
+    
+    3. Terms and Conditions QA: As part of a team of six for Lablab AI hackathon partnered with Google, we build a Terms and Conditions Question-Answering agent. Link to repo [here](https://github.com/Athe-kunal/TandC-QA).
 
 
         * [Project Page](https://lablab.ai/event/google-vertex-ai-hackathon/prompt-paladins/taco-terms-and-conditions-oracle)
@@ -40,7 +42,7 @@ with col1:
     st.write("")
 
 with col2:
-    st.image("pages\TandCQA.jpeg")
+    st.image("pages/TandCQA.jpeg")
 
 with col3:
     st.write("")
