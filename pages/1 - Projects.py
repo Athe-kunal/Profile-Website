@@ -10,7 +10,7 @@ st.write(
     to parse these documents and QA agent on top of it. Here is the link to my [project](https://github.com/Athe-kunal/SEC-QA-Agent).
     """)
 
-@st.cache_data
+@st.cache
 def get_demo(path):
     file_ = open(path, "rb")
     contents = file_.read()
@@ -27,7 +27,7 @@ st.markdown(
 st.write(
     """
     2. Llama Hub Open-Source contribution on SEC Filings loader: [loader link](https://llamahub.ai/l/sec_filings)
-    
+
     3. Terms and Conditions QA: As part of a team of six for Lablab AI hackathon partnered with Google, we build a Terms and Conditions Question-Answering agent. Link to repo [here](https://github.com/Athe-kunal/TandC-QA).
 
 
