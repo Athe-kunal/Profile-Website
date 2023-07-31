@@ -10,7 +10,7 @@ st.write(
     to parse these documents and QA agent on top of it. Here is the link to my [project](https://github.com/Athe-kunal/SEC-QA-Agent).
     """)
 
-@st.cache_resource
+@st.cache_data
 def get_demo(path):
     file_ = open(path, "rb")
     contents = file_.read()

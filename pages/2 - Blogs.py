@@ -1,9 +1,13 @@
 import streamlit as st
 
-st.write("## BLOGS")
+st.write("## PUBLICATIONS AND BLOGS")
 
 st.write(
    """
+    ### Evacuated U-tube Solar Collector Analysis using Machine learning
+
+    1. [ASME Journal of Solar Energy Engineering](https://asmedigitalcollection.asme.org/solarenergyengineering/article-abstract/145/1/011007/1141712/Design-and-Performance-Analyses-of-Evacuated-U). GitHub Implementation is [here](https://github.com/Athe-kunal/Project-for-Evacuated-U-tube-solar-collector)
+    
     ### Reinforcement learning Algorithms
     1. [Policy Gradient Methods](https://medium.com/analytics-vidhya/policy-gradients-in-deep-reinforcement-learning-83d99575cfca): 
     2. [Deep Deterministic Policy Gradient](https://medium.com/analytics-vidhya/deep-deterministic-policy-gradient-for-continuous-action-space-9b2b9bacd555)
@@ -20,7 +24,7 @@ st.write(
     2. [Deep RL in finance Part II.](https://medium.com/analytics-vidhya/deep-reinforcement-learning-in-algorithmic-trading-part-ii-b78db754961c)
 
     ### Investment Management with Python and Machine learning Specialization
-    1. [Full Series of 8 aritcles](https://medium.com/@athekunal/list/investment-management-specialization-804635e38cd3): It covers all the concepts of Machine learning applications in finance and advanced concepts in investment management
+    1. [Full Series of 9 aritcles](https://medium.com/@athekunal/list/investment-management-specialization-804635e38cd3): It covers all the concepts of Machine learning applications in finance and advanced concepts in investment management
     2. [Sentiment Analysis of SEC Filings](https://medium.com/mlearning-ai/sentiment-analysis-of-sec-filings-using-loughran-mcdonald-master-dictionary-55026b15046e)
 
     ### Contributions to Open-Source AI4Finance Foundation
