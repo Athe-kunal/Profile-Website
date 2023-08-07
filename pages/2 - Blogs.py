@@ -8,6 +8,10 @@ st.write(
 
     1. [ASME Journal of Solar Energy Engineering](https://asmedigitalcollection.asme.org/solarenergyengineering/article-abstract/145/1/011007/1141712/Design-and-Performance-Analyses-of-Evacuated-U). GitHub Implementation is [here](https://github.com/Athe-kunal/Project-for-Evacuated-U-tube-solar-collector)
     
+    ### Large Language Models
+    1. [LoRA: Low-Rank Adaptation](https://athekunal.medium.com/lora-low-rank-adaptation-paper-in-depth-explanation-417f5fa40668)
+    2. [QLoRA: Quantized Low-Rank Adaptation](https://athekunal.medium.com/qlora-quantized-low-rank-adaptation-paper-explained-c7dd9b203f38)
+
     ### Reinforcement learning Algorithms
     1. [Policy Gradient Methods](https://medium.com/analytics-vidhya/policy-gradients-in-deep-reinforcement-learning-83d99575cfca): 
     2. [Deep Deterministic Policy Gradient](https://medium.com/analytics-vidhya/deep-deterministic-policy-gradient-for-continuous-action-space-9b2b9bacd555)
