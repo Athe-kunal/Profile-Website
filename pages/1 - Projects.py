@@ -28,7 +28,9 @@ st.write(
     """
     2. Llama Hub Open-Source contribution on SEC Filings loader: [loader link](https://llamahub.ai/l/sec_filings)
 
-    3. Terms and Conditions QA: As part of a team of six for Lablab AI hackathon partnered with Google, we build a Terms and Conditions Question-Answering agent. Link to repo [here](https://github.com/Athe-kunal/TandC-QA).
+    3. SEC Filings Summarization Project: [GitHub](https://github.com/Athe-kunal/SEC-Summarize-Project)
+    
+    4. Terms and Conditions QA: As part of a team of six for Lablab AI hackathon partnered with Google, we build a Terms and Conditions Question-Answering agent. Link to repo [here](https://github.com/Athe-kunal/TandC-QA).
 
 
         * [Project Page](https://lablab.ai/event/google-vertex-ai-hackathon/prompt-paladins/taco-terms-and-conditions-oracle)
