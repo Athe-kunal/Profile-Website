@@ -35,6 +35,7 @@ st.write(
     5. Terms and Conditions QA: As part of a team of six for Lablab AI hackathon partnered with Google, we build a Terms and Conditions Question-Answering agent. Link to repo [here](https://github.com/Athe-kunal/TandC-QA).
 
 
+
         * [Project Page](https://lablab.ai/event/google-vertex-ai-hackathon/prompt-paladins/taco-terms-and-conditions-oracle)
 
         * Try the live app [here](https://taco-shawisltzq-wl.a.run.app/)
