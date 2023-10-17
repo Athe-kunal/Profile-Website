@@ -30,7 +30,7 @@ st.write(
 
     3. SEC Filings summarization Project: [GitHub](https://github.com/Athe-kunal/SEC-Summarize-Project) 
     
-    4. Llama Hub Open-Source contribution on IMDB Reviews loader: [loader link](https://github.com/run-llama/llama-hub/tree/main/llama_hub/imdb_review)
+    4. Llama Hub Open-Source contribution on IMDB Reviews loader: [loader link](https://llamahub.ai/l/imdb_review)
     
     5. Terms and Conditions QA: As part of a team of six for Lablab AI hackathon partnered with Google, we build a Terms and Conditions Question-Answering agent. Link to repo [here](https://github.com/Athe-kunal/TandC-QA).
 
