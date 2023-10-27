@@ -11,7 +11,7 @@ st.write(
     ### Large Language Models
     1. [LoRA: Low-Rank Adaptation](https://athekunal.medium.com/lora-low-rank-adaptation-paper-in-depth-explanation-417f5fa40668)
     2. [QLoRA: Quantized Low-Rank Adaptation](https://athekunal.medium.com/qlora-quantized-low-rank-adaptation-paper-explained-c7dd9b203f38)
-
+    3. [vLLM: Extensive paper explanation](https://athekunal.medium.com/vllm-a-faster-inference-pipeline-for-llms-paper-explained-2e5c9855438a)
     ### Reinforcement learning Algorithms
     1. [Policy Gradient Methods](https://medium.com/analytics-vidhya/policy-gradients-in-deep-reinforcement-learning-83d99575cfca): 
     2. [Deep Deterministic Policy Gradient](https://medium.com/analytics-vidhya/deep-deterministic-policy-gradient-for-continuous-action-space-9b2b9bacd555)
