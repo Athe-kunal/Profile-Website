@@ -39,7 +39,10 @@ st.write(
     4. [Ray 2.0 hyperparameter optimization articles](https://medium.com/@athekunal/ray-tune-user-guide-for-hyperparameter-optimization-d6bdfa2b06)
     5. [Population-Based algorithms for Hyperparameter optimization](https://medium.com/mlearning-ai/population-based-algorithms-for-hyperparameter-optimization-in-reinforcement-learning-b04ce2165533)
     6. [FinRL explainability using Shapley Values](https://athekunal.medium.com/finrl-financial-reinforcement-learning-explainability-using-shapley-values-9a16bc24a934)
-
+    
+    ### Computer Vision 
+    1. [Image segmentation losses classification](https://abrasive-headphones-a3d.notion.site/Image-Segmentation-Losses-Classification-842868dc6a7a42d98ee313ea85ff6d06)
+    
     ### Some fun ones
     1. [SVB Collapse Explained](https://athekunal.medium.com/svb-collapse-and-the-recent-banking-turmoil-explained-769a5e9b19d9)
     1. [THE REAL THREATS OF AI](https://astaragmohapatra.blogspot.com/2021/01/the-real-threats-of-ai-part-i-andrew-ng.html)
