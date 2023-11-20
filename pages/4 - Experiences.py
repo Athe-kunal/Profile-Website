@@ -8,7 +8,7 @@ st.write(
     * BeiGene is a pharmaceutical company that has a primary drug named Brukinsa that treats Leukemia. As an advanced analytics intern, my job was to develop a data-aggregation platform
     that can help my Commerical and Business Operations team to monitor the sentiment of our drug. We worked on aggreagation of data from various sources like PubMed publications, OpenCMS, LinkedIN and Twitter.
     * We synthesized all these information using BERTopic for topic modelling and aspect-based sentiment analysis, to track sentiment of our drug.
-    * All these data costs our firm nearly $50K/year, but we were able to automate and aggregate data extraction process and reduced the cost by 10X.
+    * All these data costs our firm nearly $15K/year, but we were able to automate and aggregate data extraction process and reduced the cost by 10X.
     
     ## Investment Management Club, Kelley School of Business
     * Volunteering on projects related to Machine learning applications for fundamental analysis of equities. Also, taking part in the community and talks to learn about investment research.
