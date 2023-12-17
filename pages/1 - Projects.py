@@ -48,7 +48,7 @@ st.write(
     
     5. Llama Hub Open-Source contribution on Earnings Call Transcript loader: [loader](https://llamahub.ai/l/earnings_call_transcript)
     
-    6. Movie Reviews Question Answering Agent using MongoDB Atlas: [Github](https://github.com/Athe-kunal/Movie-QA-Agent-ADT-Project/tree/main)""")
+    6. Movie Reviews Question Answering Agent using MongoDB Atlas: [Github](https://github.com/Athe-kunal/Movie-QA-Agent-ADT-Project/tree/main) and the YouTube [video](https://www.youtube.com/watch?v=3ccyEtmncY4&ab_channel=AstaragMohapatra) demonstration""")
 
 col1, col2, col3 = st.columns([3,6,1])
 
