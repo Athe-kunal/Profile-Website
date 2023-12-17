@@ -15,9 +15,8 @@ st.write(
     ## LARGE LANGUAGE MODELS
     1. [LLM101x: Large Language Models: Application through Production by DataBricks](https://courses.edx.org/certificates/79f1c89d662d410a91c05dd8c3e8ba10?_gl=1*sat01u*_ga*MTk2ODAzNzI2MC4xNjg4MjY4ODAy*_ga_D3KS4KMDT0*MTY4ODg0MzA0Mi4xNi4xLjE2ODg4NDMwNDYuNTYuMC4w)
     2. [LLM102x: Large Language Models: Foundation Models from the Ground Up by DataBricks](https://courses.edx.org/certificates/2ec045ee8da742a4be45bad2dc744c27?_gl=1*sp7nf6*_ga*MTk2ODAzNzI2MC4xNjg4MjY4ODAy*_ga_D3KS4KMDT0*MTY5MjY0MDg2Ny41MS4wLjE2OTI2NDA4NjcuNjAuMC4w)
-    2. [Building LLM-Powered Applications by Weights and Biases](https://www.credential.net/615b0df4-70be-4cb7-b047-743ed15b6b26)
-    3. [Training and Fine-tuning Large Language Models (LLMs)](https://www.credential.net/d36c8d72-aef7-484c-b521-9326d7db8495#gs.1pa6ty) with Weights and Biases [report](https://wandb.ai/rf_project/text_to_sparql_finetuning/reports/Finetune-Project-for-Text-to-SPARQL--Vmlldzo2MDg2NzQy)
-    4. [Project for LLM-Powered Applications](https://github.com/Athe-kunal/SEC-QA-Agent)
+    3. [Building LLM-Powered Applications by Weights and Biases](https://www.credential.net/615b0df4-70be-4cb7-b047-743ed15b6b26)
+    4. [Training and Fine-tuning Large Language Models (LLMs)](https://www.credential.net/d36c8d72-aef7-484c-b521-9326d7db8495#gs.1pa6ty) with Weights and Biases [report](https://wandb.ai/rf_project/text_to_sparql_finetuning/reports/Finetune-Project-for-Text-to-SPARQL--Vmlldzo2MDg2NzQy)
     5. [UMass-Advanced-NLP-Course](https://github.com/Athe-kunal/UMass-Advanced-NLP-Course)
     
     ## INVESTMENT MANAGEMENT
