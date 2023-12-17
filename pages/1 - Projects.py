@@ -5,24 +5,38 @@ st.title("Projects")
 
 st.write(
     """
-    ## LARGE LANGUAGE MODELS
-    1. SEC Filings Question Answering Agent: Every publicly listed company has to file their quarterly (10-Q) and annual (10-K) reports. The health of the company is reflected in these documents and is essential for investors to process these informations. In this project, I built an end-to-end project
+    ## LARGE LANGUAGE MODELS AND NATURAL LANGUAGE PROCESSING
+    1. Enhancement to Grouped Query Attention: Here we developed a novel weight based aggregation of  key-value heads to improve the performance over grouped query attention. We got an improvement of nearly 2.75\% over the baseline T5-small model in a summarizaiton task.
+    [GitHub link](https://github.com/Athe-kunal/Enhancement-in-GQA) and Weights and Biases [report](https://wandb.ai/athe_kunal/similarity_gqa/reports/Enhancement-to-Grouped-Query-Attention---Vmlldzo2MjM2MjQz)
+
+    2. SEC Filings Question Answering Agent: Every publicly listed company has to file their quarterly (10-Q) and annual (10-K) reports. The health of the company is reflected in these documents and is essential for investors to process these informations. In this project, I built an end-to-end project
     to parse these documents and QA agent on top of it. Here is the link to my [project](https://github.com/Athe-kunal/SEC-QA-Agent).
     """)
 
-@st.cache_data
-def get_demo(path):
-    file_ = open(path, "rb")
-    contents = file_.read()
-    data_url = base64.b64encode(contents).decode("utf-8")
-    file_.close()
-    return data_url
+# @st.cache_data
+# def get_demo(path):
+#     file_ = open(path, "rb")
+#     contents = file_.read()
+#     data_url = base64.b64encode(contents).decode("utf-8")
+#     file_.close()
+#     return data_url
 
-data_url = get_demo("pages/Demo.gif")
-st.markdown(
-    f'<img src="data:image/gif;base64,{data_url}" width="1100" height="500" alt="demo gif">',
-    unsafe_allow_html=True,
-)
+# data_url = get_demo("pages/Demo.gif")
+# st.markdown(
+#     f'<img src="data:image/gif;base64,{data_url}" width="1100" height="600" alt="demo gif">',
+#     unsafe_allow_html=True,
+# )
+
+col1, col2, col3 = st.columns([3,6,1])
+
+with col1:
+    st.write("")
+
+with col2:
+    st.image("pages/SEC-QA.png")
+
+with col3:
+    st.write("")
 
 st.write(
     """
@@ -32,7 +46,23 @@ st.write(
     
     4. Llama Hub Open-Source contribution on IMDB Reviews loader: [loader link](https://llamahub.ai/l/imdb_review)
     
-    5. Terms and Conditions QA: As part of a team of six for Lablab AI hackathon partnered with Google, we build a Terms and Conditions Question-Answering agent. Link to repo [here](https://github.com/Athe-kunal/TandC-QA).
+    5. Llama Hub Open-Source contribution on Earnings Call Transcript loader: [loader](https://llamahub.ai/l/earnings_call_transcript)
+    
+    6. Movie Reviews Question Answering Agent using MongoDB Atlas: [Github](https://github.com/Athe-kunal/Movie-QA-Agent-ADT-Project/tree/main)""")
+
+col1, col2, col3 = st.columns([3,6,1])
+
+with col1:
+    st.write("")
+
+with col2:
+    st.image("pages/MovieQA.png",caption="Parasite Movie QA")
+
+with col3:
+    st.write("")
+
+st.write("""
+    6. Terms and Conditions QA: As part of a team of six for Lablab AI hackathon partnered with Google, we build a Terms and Conditions Question-Answering agent. Link to repo [here](https://github.com/Athe-kunal/TandC-QA).
 
 
 
