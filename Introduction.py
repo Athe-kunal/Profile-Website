@@ -66,5 +66,5 @@ col1,col2,col3 = st.columns(3)
 # st.components.v1.html(linkedin_page,height=300)
 
 col1.markdown("[![LinkedIN](https://github.com/gauravghongde/social-icons/blob/master/PNG/Color/LinkedIN.png?raw=true)](https://www.linkedin.com/in/astarag-mohapatra-53b739155/)")
-col2.markdown("[![GitHub](https://camo.githubusercontent.com/b079fe922f00c4b86f1b724fbc2e8141c468794ce8adbc9b7456e5e1ad09c622/68747470733a2f2f6564656e742e6769746875622e696f2f537570657254696e7949636f6e732f696d616765732f7376672f6769746875622e737667)](https://github.com/Athe-kunal)")
-col3.markdown("[![Medium](https://camo.githubusercontent.com/a583b5ce3b463c784cb87592b3da7b9b9d014d7a16adfff04b91cb1452ae4ca2/68747470733a2f2f6564656e742e6769746875622e696f2f537570657254696e7949636f6e732f696d616765732f7376672f6d656469756d2e737667)](https://medium.com/@athekunal)")
+col2.markdown("[![GitHub](https://github.com/gauravghongde/social-icons/blob/master/PNG/Color/Github.png?raw=true)](https://github.com/Athe-kunal)")
+col3.markdown("[![Medium](https://github.com/gauravghongde/social-icons/blob/master/PNG/Color/Medium.png?raw=true)](https://medium.com/@athekunal)")
