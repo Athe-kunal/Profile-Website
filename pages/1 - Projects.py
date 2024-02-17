@@ -10,7 +10,7 @@ st.write(
     [GitHub link](https://github.com/Athe-kunal/Enhancement-in-GQA) and Weights and Biases [report](https://wandb.ai/athe_kunal/similarity_gqa/reports/Enhancement-to-Grouped-Query-Attention---Vmlldzo2MjM2MjQz)
 
     2. SEC Filings Question Answering Agent: Every publicly listed company has to file their quarterly (10-Q) and annual (10-K) reports. The health of the company is reflected in these documents and is essential for investors to process these informations. In this project, I built an end-to-end project
-    to parse these documents and QA agent on top of it. Here is the link to my [project](https://github.com/Athe-kunal/SEC-QA-Agent).
+    to parse these documents and QA agent on top of it. Here is the link to my [project](https://github.com/Athe-kunal/SEC-QA-Agent). Here is the link to my revamped [project](https://github.com/Athe-kunal/FInance-Data-LLM-Project)
     """)
 
 # @st.cache_data
@@ -40,13 +40,13 @@ with col3:
 
 st.write(
     """
-    2. Llama Hub Open-Source contribution on SEC Filings loader: [loader link](https://llamahub.ai/l/sec_filings)
+    2. Llama Hub Open-Source contribution on SEC Filings loader: [loader link](https://github.com/run-llama/llama-hub/tree/main/llama_hub/sec_filings)
 
     3. SEC Filings summarization Project: [GitHub](https://github.com/Athe-kunal/SEC-Summarize-Project) 
     
-    4. Llama Hub Open-Source contribution on IMDB Reviews loader: [loader link](https://llamahub.ai/l/imdb_review)
+    4. Llama Hub Open-Source contribution on IMDB Reviews loader: [loader link](https://github.com/run-llama/llama-hub/tree/main/llama_hub/imdb_review)
     
-    5. Llama Hub Open-Source contribution on Earnings Call Transcript loader: [loader](https://llamahub.ai/l/earnings_call_transcript)
+    5. Llama Hub Open-Source contribution on Earnings Call Transcript loader: [loader](https://github.com/run-llama/llama-hub/tree/main/llama_hub/earnings_call_transcript)
     
     6. Movie Reviews Question Answering Agent using MongoDB Atlas: [Github](https://github.com/Athe-kunal/Movie-QA-Agent-ADT-Project/tree/main) and the YouTube [video](https://www.youtube.com/watch?v=3ccyEtmncY4&ab_channel=AstaragMohapatra) demonstration""")
 
