@@ -13,11 +13,12 @@ st.write(
     6. [Modern Reinforcement learning: Actor-Critic Methods](https://www.udemy.com/certificate/UC-58c402bf-f2eb-438a-8e72-b4851caf7a6c/)
     
     ## LARGE LANGUAGE MODELS
-    1. [LLM101x: Large Language Models: Application through Production by DataBricks](https://courses.edx.org/certificates/79f1c89d662d410a91c05dd8c3e8ba10?_gl=1*sat01u*_ga*MTk2ODAzNzI2MC4xNjg4MjY4ODAy*_ga_D3KS4KMDT0*MTY4ODg0MzA0Mi4xNi4xLjE2ODg4NDMwNDYuNTYuMC4w)
-    2. [LLM102x: Large Language Models: Foundation Models from the Ground Up by DataBricks](https://courses.edx.org/certificates/2ec045ee8da742a4be45bad2dc744c27?_gl=1*sp7nf6*_ga*MTk2ODAzNzI2MC4xNjg4MjY4ODAy*_ga_D3KS4KMDT0*MTY5MjY0MDg2Ny41MS4wLjE2OTI2NDA4NjcuNjAuMC4w)
-    3. [Building LLM-Powered Applications by Weights and Biases](https://www.credential.net/615b0df4-70be-4cb7-b047-743ed15b6b26)
-    4. [Training and Fine-tuning Large Language Models (LLMs)](https://www.credential.net/d36c8d72-aef7-484c-b521-9326d7db8495#gs.1pa6ty) with Weights and Biases [report](https://wandb.ai/rf_project/text_to_sparql_finetuning/reports/Finetune-Project-for-Text-to-SPARQL--Vmlldzo2MDg2NzQy)
-    5. [UMass-Advanced-NLP-Course](https://github.com/Athe-kunal/UMass-Advanced-NLP-Course)
+    1. [Generative AI with LLMs on AWS](https://coursera.org/share/abd98e71f4b17faa5c391bc2aceff982)
+    2. [LLM101x: Large Language Models: Application through Production by DataBricks](https://courses.edx.org/certificates/79f1c89d662d410a91c05dd8c3e8ba10?_gl=1*sat01u*_ga*MTk2ODAzNzI2MC4xNjg4MjY4ODAy*_ga_D3KS4KMDT0*MTY4ODg0MzA0Mi4xNi4xLjE2ODg4NDMwNDYuNTYuMC4w)
+    3. [LLM102x: Large Language Models: Foundation Models from the Ground Up by DataBricks](https://courses.edx.org/certificates/2ec045ee8da742a4be45bad2dc744c27?_gl=1*sp7nf6*_ga*MTk2ODAzNzI2MC4xNjg4MjY4ODAy*_ga_D3KS4KMDT0*MTY5MjY0MDg2Ny41MS4wLjE2OTI2NDA4NjcuNjAuMC4w)
+    4. [Building LLM-Powered Applications by Weights and Biases](https://www.credential.net/615b0df4-70be-4cb7-b047-743ed15b6b26)
+    5. [Training and Fine-tuning Large Language Models (LLMs)](https://www.credential.net/d36c8d72-aef7-484c-b521-9326d7db8495#gs.1pa6ty) with Weights and Biases [report](https://wandb.ai/rf_project/text_to_sparql_finetuning/reports/Finetune-Project-for-Text-to-SPARQL--Vmlldzo2MDg2NzQy)
+    6. [UMass-Advanced-NLP-Course](https://github.com/Athe-kunal/UMass-Advanced-NLP-Course)
     
     ## INVESTMENT MANAGEMENT
     1. [Investment Management for Machine learning Specialization](https://www.coursera.org/account/accomplishments/specialization/4QCNUCY45EXK?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=s12n) (4 courses)

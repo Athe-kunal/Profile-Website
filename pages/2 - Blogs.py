@@ -9,11 +9,12 @@ st.write(
     1. [ASME Journal of Solar Energy Engineering](https://asmedigitalcollection.asme.org/solarenergyengineering/article-abstract/145/1/011007/1141712/Design-and-Performance-Analyses-of-Evacuated-U). GitHub Implementation is [here](https://github.com/Athe-kunal/Project-for-Evacuated-U-tube-solar-collector)
     
     ### Large Language Models
-    1. [Mamba Architecture explanation](https://athekunal.medium.com/mamba-and-state-space-models-explained-b1bf3cb3bb77)
-    2. [LoRA: Low-Rank Adaptation](https://athekunal.medium.com/lora-low-rank-adaptation-paper-in-depth-explanation-417f5fa40668)
-    3. [QLoRA: Quantized Low-Rank Adaptation](https://athekunal.medium.com/qlora-quantized-low-rank-adaptation-paper-explained-c7dd9b203f38)
-    4. [vLLM: Extensive paper explanation](https://athekunal.medium.com/vllm-a-faster-inference-pipeline-for-llms-paper-explained-2e5c9855438a)
-    5. [RoFormer paper explained and implemented in JAX](https://athekunal.medium.com/roformer-paper-exhaustively-explained-and-implemented-in-jax-10134158f462)
+    1. [Colbertv2 architecture explanation and implementation](https://athekunal.medium.com/colbert-contextualized-late-interaction-bert-explained-with-a-tutorial-2ae72a7aa055)
+    2. [Mamba Architecture explanation](https://athekunal.medium.com/mamba-and-state-space-models-explained-b1bf3cb3bb77)
+    3. [LoRA: Low-Rank Adaptation](https://athekunal.medium.com/lora-low-rank-adaptation-paper-in-depth-explanation-417f5fa40668)
+    4. [QLoRA: Quantized Low-Rank Adaptation](https://athekunal.medium.com/qlora-quantized-low-rank-adaptation-paper-explained-c7dd9b203f38)
+    5. [vLLM: Extensive paper explanation](https://athekunal.medium.com/vllm-a-faster-inference-pipeline-for-llms-paper-explained-2e5c9855438a)
+    6. [RoFormer paper explained and implemented in JAX](https://athekunal.medium.com/roformer-paper-exhaustively-explained-and-implemented-in-jax-10134158f462)
     
     ### Reinforcement learning Algorithms
     1. [Policy Gradient Methods](https://medium.com/analytics-vidhya/policy-gradients-in-deep-reinforcement-learning-83d99575cfca): 
