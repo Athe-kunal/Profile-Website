@@ -40,15 +40,15 @@ with col3:
 
 st.write(
     """
-    2. Llama Hub Open-Source contribution on SEC Filings loader: [loader link](https://github.com/run-llama/llama-hub/tree/main/llama_hub/sec_filings)
+    1. Llama Hub Open-Source contribution on SEC Filings loader: [loader link](https://github.com/run-llama/llama-hub/tree/main/llama_hub/sec_filings)
 
-    3. SEC Filings summarization Project: [GitHub](https://github.com/Athe-kunal/SEC-Summarize-Project) 
+    2. SEC Filings summarization Project: [GitHub](https://github.com/Athe-kunal/SEC-Summarize-Project) 
     
-    4. Llama Hub Open-Source contribution on IMDB Reviews loader: [loader link](https://github.com/run-llama/llama-hub/tree/main/llama_hub/imdb_review)
+    3. Llama Hub Open-Source contribution on IMDB Reviews loader: [loader link](https://github.com/run-llama/llama-hub/tree/main/llama_hub/imdb_review)
     
-    5. Llama Hub Open-Source contribution on Earnings Call Transcript loader: [loader](https://github.com/run-llama/llama-hub/tree/main/llama_hub/earnings_call_transcript)
+    4. Llama Hub Open-Source contribution on Earnings Call Transcript loader: [loader](https://github.com/run-llama/llama-hub/tree/main/llama_hub/earnings_call_transcript)
     
-    6. Movie Reviews Question Answering Agent using MongoDB Atlas: [Github](https://github.com/Athe-kunal/Movie-QA-Agent-ADT-Project/tree/main) and the YouTube [video](https://www.youtube.com/watch?v=3ccyEtmncY4&ab_channel=AstaragMohapatra) demonstration""")
+    5. Movie Reviews Question Answering Agent using MongoDB Atlas: [Github](https://github.com/Athe-kunal/Movie-QA-Agent-ADT-Project/tree/main) and the YouTube [video](https://www.youtube.com/watch?v=3ccyEtmncY4&ab_channel=AstaragMohapatra) demonstration""")
 
 col1, col2, col3 = st.columns([3,6,1])
 

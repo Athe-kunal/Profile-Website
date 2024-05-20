@@ -15,6 +15,7 @@ st.write(
     4. [QLoRA: Quantized Low-Rank Adaptation](https://athekunal.medium.com/qlora-quantized-low-rank-adaptation-paper-explained-c7dd9b203f38)
     5. [vLLM: Extensive paper explanation](https://athekunal.medium.com/vllm-a-faster-inference-pipeline-for-llms-paper-explained-2e5c9855438a)
     6. [RoFormer paper explained and implemented in JAX](https://athekunal.medium.com/roformer-paper-exhaustively-explained-and-implemented-in-jax-10134158f462)
+    7. [AdaLoRA](https://athekunal.medium.com/adaptive-lora-adalora-paper-explanation-7cb5ac04d0cb)
     
     ### Reinforcement learning Algorithms
     1. [Policy Gradient Methods](https://medium.com/analytics-vidhya/policy-gradients-in-deep-reinforcement-learning-83d99575cfca): 

@@ -4,6 +4,12 @@ st.title("COURSEWORKS")
 
 st.write(
     """
+    ## ALL COURSES LIST ON LINKEDIN
+    [ALL COURSES LIST](https://www.linkedin.com/in/astarag-mohapatra-53b739155/details/certifications/)
+    """
+)
+st.write(
+    """
     ## MACHINE LEARNING 
     1. [Deep Learning Specialization by Andrew Ng](https://www.coursera.org/account/accomplishments/specialization/2AVMGFW5VBF5) (5 courses)
     2. [Reinforcement learning Specialization by University of Alberta](https://www.coursera.org/account/accomplishments/specialization/BL5GEW84VQKP) (4 courses)
