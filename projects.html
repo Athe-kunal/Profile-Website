@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Projects | Astarag Mohapatra</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <header id="top">
+      <nav class="navbar">
+        <a class="navbar__brand" href="index.html">Astarag Mohapatra</a>
+        <div class="navbar__links">
+          <a href="index.html#about">About</a>
+          <a href="projects.html" class="is-active" aria-current="page">Projects</a>
+          <a href="writing.html">Publications &amp; Blogs</a>
+          <a href="coursework.html">Coursework</a>
+          <a href="experience.html">Experience</a>
+          <a href="contact.html">Connect</a>
+        </div>
+      </nav>
+      <div class="page-hero">
+        <h1>Projects</h1>
+        <p>
+          Exploring large language models, responsible AI, and decision intelligence across finance, healthcare, and consumer
+          applications. Dive into end-to-end builds, research collaborations, and open-source contributions.
+        </p>
+      </div>
+    </header>
+
+    <main>
+      <section class="section" id="projects">
+        <div class="grid grid--two">
+          <article class="card">
+            <h3>Large Language Models &amp; Natural Language Processing</h3>
+            <ol>
+              <li>
+                <strong>Enhancement to Grouped Query Attention</strong> – Developed a novel
+                weight-based aggregation of key-value heads to improve T5-small summarisation
+                performance by <abbr title="percentage">2.75%</abbr> over the grouped query attention baseline.
+                Explore the
+                <a href="https://github.com/Athe-kunal/Enhancement-in-GQA">GitHub repo</a>
+                and the Weights &amp; Biases
+                <a href="https://wandb.ai/athe_kunal/similarity_gqa/reports/Enhancement-to-Grouped-Query-Attention---Vmlldzo2MjMyMjQz">report</a>.
+              </li>
+              <li>
+                <strong>SEC Filings Question Answering Agent</strong> – Built an end-to-end
+                system that parses <code>10-Q</code> and <code>10-K</code> filings to answer investor
+                questions about company health. Explore the original
+                <a href="https://github.com/Athe-kunal/SEC-QA-Agent">project</a> and the
+                revamped
+                <a href="https://github.com/Athe-kunal/FInance-Data-LLM-Project">finance data LLM repo</a>.
+              </li>
+            </ol>
+            <figure>
+              <img src="assets/images/SEC-QA.png" alt="Dashboard from the SEC QA agent" />
+              <figcaption>SEC filings question answering workflow.</figcaption>
+            </figure>
+            <ol start="3">
+              <li>
+                <strong>Open-source contributions</strong> – Added specialised loaders to
+                <a href="https://github.com/run-llama/llama-hub/tree/main/llama_hub/sec_filings">LlamaHub for SEC filings</a>,
+                <a href="https://github.com/run-llama/llama-hub/tree/main/llama_hub/imdb_review">IMDB reviews</a>, and
+                <a href="https://github.com/run-llama/llama-hub/tree/main/llama_hub/earnings_call_transcript">earnings call transcripts</a>.
+              </li>
+              <li>
+                <strong>Movie Reviews Question Answering Agent</strong> – Built a MongoDB
+                Atlas-powered QA system. Browse the
+                <a href="https://github.com/Athe-kunal/Movie-QA-Agent-ADT-Project/tree/main">code</a>
+                and watch the
+                <a href="https://www.youtube.com/watch?v=3ccyEtmncY4&ab_channel=AstaragMohapatra">demo</a>.
+              </li>
+            </ol>
+            <figure>
+              <img src="assets/images/MovieQA.png" alt="Movie QA agent interface" />
+              <figcaption>Movie reviews QA prototype for <em>Parasite</em>.</figcaption>
+            </figure>
+            <ol start="5">
+              <li>
+                <strong>Terms &amp; Conditions QA</strong> – Built during a Google × Lablab AI
+                hackathon as part of a six-member team. Dive into the
+                <a href="https://github.com/Athe-kunal/TandC-QA">repository</a>, read the
+                <a href="https://lablab.ai/event/google-vertex-ai-hackathon/prompt-paladins/taco-terms-and-conditions-oracle">project summary</a>,
+                or try the
+                <a href="https://taco-shawisltzq-wl.a.run.app/">live app</a>.
+              </li>
+            </ol>
+            <figure>
+              <img src="assets/images/TandCQA.jpeg" alt="Screenshot from the Terms &amp; Conditions QA project" />
+              <figcaption>Terms &amp; Conditions Oracle built during Google × Lablab AI hackathon.</figcaption>
+            </figure>
+          </article>
+
+          <article class="card">
+            <h3>Decision Intelligence &amp; Machine Learning</h3>
+            <h4>Reinforcement Learning</h4>
+            <ul>
+              <li>
+                <strong>Algorithmic Trading with Google Trends</strong> – Leveraged web
+                search data as state space to improve RL trading performance.
+                <a href="https://github.com/Athe-kunal/Reinforcement-learning-trading-agent-using-Google-trends-data">GitHub</a>
+                ·
+                <a href="https://medium.com/mlearning-ai/google-trends-data-for-automated-stock-trading-using-reinforcement-learning-9c0fd6d00678">Medium</a>
+              </li>
+              <li>
+                <strong>Black-Litterman Portfolio Optimisation</strong> – Work-in-progress on
+                applying RL to portfolio construction.
+                <a href="https://github.com/Athe-kunal/Black-Litterman-Portfolio-Optimization-using-RL">GitHub</a>
+              </li>
+              <li>
+                <strong>FinRL Optimisation Contributions</strong> – Authored explainers and
+                tutorials for hyperparameter optimisation workflows in FinRL.
+                <a href="https://medium.com/@athekunal/list/finrl-contributions-59de6997c5b1">Article series</a>
+              </li>
+            </ul>
+            <h4>Machine Learning</h4>
+            <ul class="list-columns">
+              <li>
+                <a href="https://github.com/Athe-kunal/Machine-learning-Project-Portfolio">Applied Machine Learning Portfolio</a>
+              </li>
+              <li>
+                <a href="https://medium.com/@athekunal/list/investment-management-specialization-804635e38cd3">Investment Management Specialisation notes</a>
+              </li>
+              <li>
+                <a href="https://github.com/Athe-kunal/Invest-Management-with-Python-and-Machine-learning-specialization">Investment Management with Python projects</a>
+              </li>
+              <li>
+                <a href="https://github.com/Athe-kunal/Machine-Learning-Optimization-using-Gradient-Descent-and-Newton-Raphson-Method">Optimisation with Gradient Descent &amp; Newton-Raphson</a>
+              </li>
+              <li>
+                <a href="https://github.com/Athe-kunal/UMass-Advanced-NLP-Course">UMass Advanced NLP coursework</a>
+              </li>
+              <li>
+                <a href="https://github.com/Athe-kunal/Latent-Dirichlet-Allocation-using-Gibbs-Sampling">Latent Dirichlet Allocation with Gibbs Sampling</a>
+              </li>
+              <li>
+                <a href="https://github.com/Athe-kunal/Bayesian-Regularized-Linear-Regression">Bayesian Regularised Linear Regression</a>
+              </li>
+            </ul>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer__inner">
+        <div>
+          <strong>Let's connect</strong>
+          <p>
+            I enjoy collaborating on research-heavy ML projects and writing about ideas
+            that shape the future of human–AI collaboration. Reach out anytime.
+          </p>
+        </div>
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/astarag-mohapatra-53b739155/" aria-label="LinkedIn">
+            <span>LinkedIn</span>
+          </a>
+          <a href="https://github.com/Athe-kunal" aria-label="GitHub">
+            <span>GitHub</span>
+          </a>
+          <a href="https://medium.com/@athekunal" aria-label="Medium">
+            <span>Medium</span>
+          </a>
+        </div>
+        <div>
+          <a href="#top">Back to top ↑</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
