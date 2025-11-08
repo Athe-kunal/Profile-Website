@@ -33,7 +33,7 @@ with col1:
     st.write("")
 
 with col2:
-    st.image("pages/SEC-QA.png")
+    st.image("assets/images/SEC-QA.png")
 
 with col3:
     st.write("")
@@ -56,7 +56,7 @@ with col1:
     st.write("")
 
 with col2:
-    st.image("pages/MovieQA.png",caption="Parasite Movie QA")
+    st.image("assets/images/MovieQA.png",caption="Parasite Movie QA")
 
 with col3:
     st.write("")
@@ -77,7 +77,7 @@ with col1:
     st.write("")
 
 with col2:
-    st.image("pages/TandCQA.jpeg")
+    st.image("assets/images/TandCQA.jpeg")
 
 with col3:
     st.write("")
