@@ -31,112 +31,144 @@
 
     <main>
       <section class="section" id="projects">
-        <div class="grid grid--two">
-          <article class="card">
-            <h3>Large Language Models &amp; Natural Language Processing</h3>
-            <ol>
-              <li>
-                <strong>IntervalTree.rs</strong> – Implemented an efficient interval tree in Rust and exposed
+        <div class="project-category">
+          <h2>Large Language Models &amp; Natural Language Processing</h2>
+          <div class="projects-grid">
+            <article class="project-card">
+              <h3>IntervalTree.rs</h3>
+              <p>
+                Implemented an efficient interval tree in Rust and exposed
                 <a href="https://github.com/PyO3/pyo3">PyO3</a> bindings to deliver a smooth Python interface for
-                data science workflows. Explore the <a href="https://github.com/Athe-kunal/intervaltree_rs">GitHub repo</a>.
-              </li>
-               <li>
-                <strong>Sasha Rush Puzzles</strong> – Completed the Puzzles
+                data science workflows. Explore the
+                <a href="https://github.com/Athe-kunal/intervaltree_rs">GitHub repo</a>.
+              </p>
+            </article>
+            <article class="project-card">
+              <h3>Sasha Rush Puzzles</h3>
+              <p>
+                Completed the
                 <a href="https://github.com/Athe-kunal/Tensor-Puzzles">Tensor Puzzles</a>,
                 <a href="https://github.com/Athe-kunal/GPU-Puzzles">GPU Puzzles</a>, and
-                <a href="https://github.com/Athe-kunal/Helion-Puzzles">Helion and Triton Puzzles</a>.
-              </li>
-              <li>
-              <strong>Enhancement to Grouped Query Attention</strong> – Developed a novel
-                weight-based aggregation of key-value heads to improve T5-small summarisation
-                performance by <abbr title="percentage">2.75%</abbr> over the grouped query attention baseline.
-                Explore the
+                <a href="https://github.com/Athe-kunal/Helion-Puzzles">Helion and Triton Puzzles</a> to deepen my
+                low-level ML intuition.
+              </p>
+            </article>
+            <article class="project-card">
+              <h3>Enhancement to Grouped Query Attention</h3>
+              <p>
+                Developed a novel weight-based aggregation of key-value heads to improve T5-small summarisation
+                performance by <abbr title="percentage">2.75%</abbr> over the grouped query attention baseline. Explore the
                 <a href="https://github.com/Athe-kunal/Enhancement-in-GQA">GitHub repo</a>
                 and the Weights &amp; Biases
                 <a href="https://wandb.ai/athe_kunal/similarity_gqa/reports/Enhancement-to-Grouped-Query-Attention---Vmlldzo2MjMyMjQz">report</a>.
-              </li>
-              <li>
-                <strong>SEC Filings Question Answering Agent</strong> – Built an end-to-end
-                system that parses <code>10-Q</code> and <code>10-K</code> filings to answer investor
-                questions about company health. Explore the original
-                <a href="https://github.com/Athe-kunal/SEC-QA-Agent">project</a> and the
-                revamped
-                <a href="https://github.com/Athe-kunal/FInance-Data-LLM-Project">finance data LLM repo</a>.
-              </li>
-            </ol>
-            <figure>
-              <img src="assets/images/SEC-QA.png" alt="Dashboard from the SEC QA agent" />
-              <figcaption>SEC filings question answering workflow.</figcaption>
-            </figure>
-            <ol start="3">
-              <li>
-                <strong>Open-source contributions</strong> – Added specialised loaders to
+              </p>
+            </article>
+            <article class="project-card project-card--media">
+              <div>
+                <h3>SEC Filings Question Answering Agent</h3>
+                <p>
+                  Built an end-to-end system that parses <code>10-Q</code> and <code>10-K</code> filings to answer investor
+                  questions about company health. Explore the original
+                  <a href="https://github.com/Athe-kunal/SEC-QA-Agent">project</a> and the revamped
+                  <a href="https://github.com/Athe-kunal/FInance-Data-LLM-Project">finance data LLM repo</a>.
+                </p>
+              </div>
+              <figure>
+                <img src="assets/images/SEC-QA.png" alt="Dashboard from the SEC QA agent" />
+                <figcaption>SEC filings question answering workflow.</figcaption>
+              </figure>
+            </article>
+            <article class="project-card">
+              <h3>Open-source contributions</h3>
+              <p>
+                Added specialised loaders to
                 <a href="https://github.com/run-llama/llama-hub/tree/main/llama_hub/sec_filings">LlamaHub for SEC filings</a>,
                 <a href="https://github.com/run-llama/llama-hub/tree/main/llama_hub/imdb_review">IMDB reviews</a>, and
                 <a href="https://github.com/run-llama/llama-hub/tree/main/llama_hub/earnings_call_transcript">earnings call transcripts</a>.
-              </li>
-              <li>
-                <strong>Movie Reviews Question Answering Agent</strong> – Built a MongoDB
-                Atlas-powered QA system. Browse the
-                <a href="https://github.com/Athe-kunal/Movie-QA-Agent-ADT-Project/tree/main">code</a>
-                and watch the
-                <a href="https://www.youtube.com/watch?v=3ccyEtmncY4&ab_channel=AstaragMohapatra">demo</a>.
-              </li>
-            </ol>
-            <figure>
-              <img src="assets/images/MovieQA.png" alt="Movie QA agent interface" />
-              <figcaption>Movie reviews QA prototype for <em>Parasite</em>.</figcaption>
-            </figure>
-            
-          </article>
+              </p>
+            </article>
+            <article class="project-card project-card--media">
+              <div>
+                <h3>Movie Reviews Question Answering Agent</h3>
+                <p>
+                  Built a MongoDB Atlas-powered QA system. Browse the
+                  <a href="https://github.com/Athe-kunal/Movie-QA-Agent-ADT-Project/tree/main">code</a>
+                  and watch the
+                  <a href="https://www.youtube.com/watch?v=3ccyEtmncY4&ab_channel=AstaragMohapatra">demo</a>.
+                </p>
+              </div>
+              <figure>
+                <img src="assets/images/MovieQA.png" alt="Movie QA agent interface" />
+                <figcaption>Movie reviews QA prototype for <em>Parasite</em>.</figcaption>
+              </figure>
+            </article>
+          </div>
+        </div>
 
-          <article class="card">
-            <h3>Old days of being a finance bro</h3>
-            <h4>Reinforcement Learning</h4>
-            <ul>
-              <li>
-                <strong>Algorithmic Trading with Google Trends</strong> – Leveraged web
-                search data as state space to improve RL trading performance.
-                <a href="https://github.com/Athe-kunal/Reinforcement-learning-trading-agent-using-Google-trends-data">GitHub</a>
-                ·
-                <a href="https://medium.com/mlearning-ai/google-trends-data-for-automated-stock-trading-using-reinforcement-learning-9c0fd6d00678">Medium</a>
-              </li>
-              <li>
-                <strong>Black-Litterman Portfolio Optimisation</strong> – Work-in-progress on
-                applying RL to portfolio construction.
-                <a href="https://github.com/Athe-kunal/Black-Litterman-Portfolio-Optimization-using-RL">GitHub</a>
-              </li>
-              <li>
-                <strong>FinRL Optimisation Contributions</strong> – Authored explainers and
-                tutorials for hyperparameter optimisation workflows in FinRL.
-                <a href="https://medium.com/@athekunal/list/finrl-contributions-59de6997c5b1">Article series</a>
-              </li>
-            </ul>
-            <h4>Machine Learning</h4>
-            <ul class="list-columns">
-              <li>
-                <a href="https://github.com/Athe-kunal/Machine-learning-Project-Portfolio">Applied Machine Learning Portfolio</a>
-              </li>
-              <li>
-                <a href="https://medium.com/@athekunal/list/investment-management-specialization-804635e38cd3">Investment Management Specialisation notes</a>
-              </li>
-              <li>
-                <a href="https://github.com/Athe-kunal/Invest-Management-with-Python-and-Machine-learning-specialization">Investment Management with Python projects</a>
-              </li>
-              <li>
-                <a href="https://github.com/Athe-kunal/Machine-Learning-Optimization-using-Gradient-Descent-and-Newton-Raphson-Method">Optimisation with Gradient Descent &amp; Newton-Raphson</a>
-              </li>
-              <li>
-                <a href="https://github.com/Athe-kunal/UMass-Advanced-NLP-Course">UMass Advanced NLP coursework</a>
-              </li>
-              <li>
-                <a href="https://github.com/Athe-kunal/Latent-Dirichlet-Allocation-using-Gibbs-Sampling">Latent Dirichlet Allocation with Gibbs Sampling</a>
-              </li>
-              <li>
-                <a href="https://github.com/Athe-kunal/Bayesian-Regularized-Linear-Regression">Bayesian Regularised Linear Regression</a>
-              </li>
-            </ul>
-          </article>
+        <div class="project-category">
+          <h2>Old days of being a finance bro</h2>
+          <div class="project-subsection">
+            <h3>Reinforcement Learning</h3>
+            <div class="projects-grid">
+              <article class="project-card">
+                <h4>Algorithmic Trading with Google Trends</h4>
+                <p>
+                  Leveraged web search data as state space to improve RL trading performance.
+                  <a href="https://github.com/Athe-kunal/Reinforcement-learning-trading-agent-using-Google-trends-data">GitHub</a>
+                  ·
+                  <a href="https://medium.com/mlearning-ai/google-trends-data-for-automated-stock-trading-using-reinforcement-learning-9c0fd6d00678">Medium</a>
+                </p>
+              </article>
+              <article class="project-card">
+                <h4>Black-Litterman Portfolio Optimisation</h4>
+                <p>
+                  Work-in-progress on applying RL to portfolio construction.
+                  <a href="https://github.com/Athe-kunal/Black-Litterman-Portfolio-Optimization-using-RL">GitHub</a>
+                </p>
+              </article>
+              <article class="project-card">
+                <h4>FinRL Optimisation Contributions</h4>
+                <p>
+                  Authored explainers and tutorials for hyperparameter optimisation workflows in FinRL.
+                  <a href="https://medium.com/@athekunal/list/finrl-contributions-59de6997c5b1">Article series</a>
+                </p>
+              </article>
+            </div>
+          </div>
+
+          <div class="project-subsection">
+            <h3>Machine Learning</h3>
+            <div class="projects-grid">
+              <article class="project-card">
+                <h4><a href="https://github.com/Athe-kunal/Machine-learning-Project-Portfolio">Applied Machine Learning Portfolio</a></h4>
+                <p>Selected projects that showcase classical ML techniques in finance settings.</p>
+              </article>
+              <article class="project-card">
+                <h4><a href="https://medium.com/@athekunal/list/investment-management-specialization-804635e38cd3">Investment Management Specialisation notes</a></h4>
+                <p>Structured notes from the Coursera specialisation on investment management.</p>
+              </article>
+              <article class="project-card">
+                <h4><a href="https://github.com/Athe-kunal/Invest-Management-with-Python-and-Machine-learning-specialization">Investment Management with Python projects</a></h4>
+                <p>End-to-end financial modelling notebooks built during the specialisation.</p>
+              </article>
+              <article class="project-card">
+                <h4><a href="https://github.com/Athe-kunal/Machine-Learning-Optimization-using-Gradient-Descent-and-Newton-Raphson-Method">Optimisation with Gradient Descent &amp; Newton-Raphson</a></h4>
+                <p>Explorations of optimisation dynamics and convergence guarantees.</p>
+              </article>
+              <article class="project-card">
+                <h4><a href="https://github.com/Athe-kunal/UMass-Advanced-NLP-Course">UMass Advanced NLP coursework</a></h4>
+                <p>Assignments covering parsing, generation, and probabilistic modelling.</p>
+              </article>
+              <article class="project-card">
+                <h4><a href="https://github.com/Athe-kunal/Latent-Dirichlet-Allocation-using-Gibbs-Sampling">Latent Dirichlet Allocation with Gibbs Sampling</a></h4>
+                <p>Topic modelling implementation tuned for finance corpora.</p>
+              </article>
+              <article class="project-card">
+                <h4><a href="https://github.com/Athe-kunal/Bayesian-Regularized-Linear-Regression">Bayesian Regularised Linear Regression</a></h4>
+                <p>Bayesian regression templates for robust portfolio analytics.</p>
+              </article>
+            </div>
+          </div>
         </div>
       </section>
     </main>
