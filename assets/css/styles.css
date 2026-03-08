@@ -244,6 +244,12 @@ main {
   box-shadow: 0 15px 30px rgba(26, 28, 30, 0.12);
 }
 
+.project-card__image--small {
+  width: min(100%, 220px) !important;
+  display: block;
+  margin-inline: auto;
+}
+
 .project-card--media figcaption {
   margin-top: 0.65rem;
   color: var(--text-muted);
